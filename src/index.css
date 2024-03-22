@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.swiper-wrapper {
+  transition: transform 0.5s ease;
+  scroll-behavior: smooth;
+}
+
+.xscrollbar::-webkit-scrollbar {
+  display: none;
+}
